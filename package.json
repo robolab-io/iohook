@@ -1,5 +1,5 @@
 {
-  "name": "iohook",
+  "name": "@mechakeys/iohook",
   "version": "0.9.4",
   "description": "Node.js global keyboard and mouse hook",
   "author": "Robolab",
