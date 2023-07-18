@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev">
+      <UniqueIdentifier>{1AB309A5-4066-6F10-E31A-8AE4FFDDB9A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop">
+      <UniqueIdentifier>{B23D6E4D-7634-EF57-62FC-46A6189C0B6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source">
+      <UniqueIdentifier>{C7DB3366-B996-7FD4-F0F7-1D0DC5735009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source\iohook">
+      <UniqueIdentifier>{02ED22FE-7760-1A94-9E26-EF7C6FCA6598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source\iohook\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source\iohook\node_modules\node-gyp">
+      <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source\iohook\node_modules\node-gyp\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\iohook.cc">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\src\iohook.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClCompile Include="C:\Users\theev\Desktop\iohook_source\iohook\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\theev\Desktop\iohook_source\iohook\node_modules\node-gyp\src</Filter>
+    </ClCompile>
+    <None Include="..\binding.gyp">
+      <Filter>..</Filter>
+    </None>
+  </ItemGroup>
+</Project>

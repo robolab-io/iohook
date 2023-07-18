@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook">
+      <UniqueIdentifier>{C17923F2-1891-49A5-2A8B-74549F857080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook">
+      <UniqueIdentifier>{C17923F2-1891-49A5-2A8B-74549F857080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook">
+      <UniqueIdentifier>{C17923F2-1891-49A5-2A8B-74549F857080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook">
+      <UniqueIdentifier>{C17923F2-1891-49A5-2A8B-74549F857080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src\windows">
+      <UniqueIdentifier>{C1450D01-C033-76F3-3763-6DE88AF48A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook">
+      <UniqueIdentifier>{C17923F2-1891-49A5-2A8B-74549F857080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src\windows">
+      <UniqueIdentifier>{C1450D01-C033-76F3-3763-6DE88AF48A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook">
+      <UniqueIdentifier>{C17923F2-1891-49A5-2A8B-74549F857080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src\windows">
+      <UniqueIdentifier>{C1450D01-C033-76F3-3763-6DE88AF48A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook">
+      <UniqueIdentifier>{C17923F2-1891-49A5-2A8B-74549F857080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src\windows">
+      <UniqueIdentifier>{C1450D01-C033-76F3-3763-6DE88AF48A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook">
+      <UniqueIdentifier>{C17923F2-1891-49A5-2A8B-74549F857080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libuiohook\src\windows">
+      <UniqueIdentifier>{C1450D01-C033-76F3-3763-6DE88AF48A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev">
+      <UniqueIdentifier>{1AB309A5-4066-6F10-E31A-8AE4FFDDB9A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop">
+      <UniqueIdentifier>{B23D6E4D-7634-EF57-62FC-46A6189C0B6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source">
+      <UniqueIdentifier>{C7DB3366-B996-7FD4-F0F7-1D0DC5735009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source\iohook">
+      <UniqueIdentifier>{02ED22FE-7760-1A94-9E26-EF7C6FCA6598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source\iohook\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source\iohook\node_modules\node-gyp">
+      <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\theev\Desktop\iohook_source\iohook\node_modules\node-gyp\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libuiohook\include\uiohook.h">
+      <Filter>..\libuiohook\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\libuiohook\src\logger.c">
+      <Filter>..\libuiohook\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\libuiohook\src\logger.h">
+      <Filter>..\libuiohook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libuiohook\src\windows\input_helper.h">
+      <Filter>..\libuiohook\src\windows</Filter>
+    </ClInclude>
+    <ClCompile Include="..\libuiohook\src\windows\input_helper.c">
+      <Filter>..\libuiohook\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libuiohook\src\windows\input_hook.c">
+      <Filter>..\libuiohook\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libuiohook\src\windows\post_event.c">
+      <Filter>..\libuiohook\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libuiohook\src\windows\system_properties.c">
+      <Filter>..\libuiohook\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\theev\Desktop\iohook_source\iohook\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\theev\Desktop\iohook_source\iohook\node_modules\node-gyp\src</Filter>
+    </ClCompile>
+    <None Include="..\uiohook.gyp">
+      <Filter>..</Filter>
+    </None>
+  </ItemGroup>
+</Project>
