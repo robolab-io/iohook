@@ -405,6 +405,7 @@
     "standalone_static_library": 1,
     "msbuild_path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\MSBuild.exe",
     "target": "18.0.0",
+    "access": "public",
     "cache": "C:\\Users\\theev\\AppData\\Local\\npm-cache",
     "globalconfig": "C:\\Users\\theev\\AppData\\Roaming\\npm\\etc\\npmrc",
     "global_prefix": "C:\\Users\\theev\\AppData\\Roaming\\npm",
