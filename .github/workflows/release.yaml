@@ -24,13 +24,59 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      # 'npm install' also runs node install, the post-install script which tries to download prebuilds of iohook.
-      # oh, that's why we have npm ci
       - run: npm ci --ignore-scripts
       - run: npm run build:ci
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3.1.2
         with:
-          name: Node and Electron Prebuilds
+          name: Windows Prebuilds
+          path: prebuilds
+
+  build-mac:
+    runs-on: macos-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci --ignore-scripts
+      - run: npm run build:ci
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: macOS Prebuilds
+          path: prebuilds
+
+  build-linux:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci --ignore-scripts
+      - run: npm run build:ci
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: Linux (Ubuntu) Prebuilds
           path: prebuilds
