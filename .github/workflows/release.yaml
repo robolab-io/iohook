@@ -24,6 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     # 'npm install' also runs node install, the post-install script which tries to download prebuilds of iohook.
-    - run: npm i
+    # oh, that's why we have npm ci
+    - run: npm ci
     - run: npm run build:ci
     
