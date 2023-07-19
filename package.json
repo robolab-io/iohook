@@ -16,7 +16,10 @@
     "build:print": "node -e 'require(\"./helpers\").printManualBuildParams()'",
     "test": "jest",
     "lint:dry": "eslint --ignore-path .lintignore .",
-    "lint:fix": "eslint --ignore-path .lintignore --fix . && prettier --ignore-path .lintignore --write ."
+    "lint:fix": "eslint --ignore-path .lintignore --fix . && prettier --ignore-path .lintignore --write .",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "npm run docs:build && gh-pages -d docs/.vuepress/dist/"
   },
   "keywords": [
     "hook",
@@ -47,6 +50,11 @@
       "prettier --write"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "dependencies": {
     "nugget": "^2.0.1",
     "pump": "^1.0.3",
@@ -62,13 +70,19 @@
     "eslint-plugin-only-warn": "^1.0.2",
     "eslint-plugin-prettier": "^3.4.0",
     "fs-extra": "^9.0.1",
+    "gh-pages": "^3.2.0",
+    "htmlhint": "^0.15.1",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
     "lint-staged": "^11.0.0",
     "minimist": "^1.2.5",
     "node-abi": "^2.30.1",
     "node-gyp": "^9.4.0",
     "prebuild": "^10.0.1",
     "prettier": "^2.3.1",
-    "tar": "^6.0.5"
+    "robotjs": "^0.6.0",
+    "tar": "^6.0.5",
+    "vuepress": "^1.7.1"
   },
   "resolutions": {
     "nan": "github:tec27/nan#remove_accessor_signature"
