@@ -127,6 +127,6 @@ dist
 .pnp.*
 
 # iohook
-build
-builds
-prebuilds
+# build
+# builds
+# prebuilds
