@@ -72,6 +72,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+
+      - name: Install dependencies
+        run: sudo apt-get install xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev
+      - name: Install dependencies (Ubuntu)
+        run: sudo apt-get install libxtst-dev
+
       - run: npm ci --ignore-scripts
       - run: npm run build:ci
 
