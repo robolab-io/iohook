@@ -3,10 +3,10 @@ name: Build iohook
 on:
   push:
     branches:
-      - "main"
+      - 'main'
   pull_request:
     branches:
-      - "main"
+      - 'main'
 
 jobs:
   build-windows:
@@ -17,14 +17,20 @@ jobs:
         node-version: [18.x]
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    # 'npm install' also runs node install, the post-install script which tries to download prebuilds of iohook.
-    # oh, that's why we have npm ci
-    - run: npm ci
-    - run: npm run build:ci
-    
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      # 'npm install' also runs node install, the post-install script which tries to download prebuilds of iohook.
+      # oh, that's why we have npm ci
+      - run: npm ci
+      - run: npm run build:ci
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: Node and Electron Prebuilds
+          path: prebuilds
