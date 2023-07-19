@@ -16,3 +16,6 @@ jobs:
           repo_token: '${{ secrets.GITHUB_TOKEN }}'
           prerelease: false
           draft: true
+          files: |
+            prebuilds/*.tar.gz
+            prebuilds/*.zip
