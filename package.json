@@ -11,7 +11,6 @@
     "url": "git+https://github.com/robolab-io/iohook.git"
   },
   "scripts": {
-    "install": "node install.js",
     "build": "node build.js --upload=false",
     "build:ci": "node build.js --all",
     "build:print": "node -e 'require(\"./helpers\").printManualBuildParams()'",
