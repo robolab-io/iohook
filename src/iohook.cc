@@ -564,4 +564,8 @@ NAN_MODULE_INIT(Init) {
   Nan::GetFunction(Nan::New<FunctionTemplate>(GrabMouseClick)).ToLocalChecked());
 }
 
+#if NODE_MAJOR_VERSION >= 10
+NAN_MODULE_WORKER_ENABLED(nodeHook, Init)
+#else
 NODE_MODULE(nodeHook, Init)
+#endif
