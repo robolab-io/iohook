@@ -75,6 +75,10 @@ jobs:
 
       - name: Install dependencies
         run: sudo apt-get install xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev
+        run: sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+        run: sudo apt-get update
+        run: sudo apt-get install gcc-7 g++-7 -y
+        run: sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 70 --slave /usr/bin/g++ g++ /usr/bin/g++-7
       - name: Install dependencies (Ubuntu)
         run: sudo apt-get install libxtst-dev
 
