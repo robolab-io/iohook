@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "node build.js --upload=false",
-    "build:ci": "node build.js --all",
+    "build:ci": "node build.js --all --openssl_fips=''",
     "build:print": "node -e 'require(\"./helpers\").printManualBuildParams()'"
   },
   "keywords": [
