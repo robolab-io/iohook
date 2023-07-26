@@ -4,7 +4,7 @@ task:
 
   node_modules_cache: #
     folder: node_modules
-    fingerprint_script: cat packagle.lock
+    fingerprint_script: cat package-lock.json
     populate_script: npm ci --ignore-scripts
 
   matrix: #
