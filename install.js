@@ -116,7 +116,7 @@ if (process.env.npm_config_targets) {
 if (process.env.npm_config_targets === 'all') {
   options.targets = supportedTargets.map((arr) => [arr[0], arr[2]]);
   options.platforms = ['win32', 'darwin', 'linux'];
-  options.arches = ['x64', 'ia32'];
+  options.arches = ['x64', 'ia32', 'arm64'];
 }
 if (process.env.npm_config_platforms) {
   options.platforms = options.platforms.concat(
@@ -127,6 +127,10 @@ if (process.env.npm_config_arches) {
   options.arches = options.arches.concat(
     process.env.npm_config_arches.split(',')
   );
+}
+
+if (!options.arches.includes('arm64')) {
+  options.arches.push('arm64');
 }
 
 // Choice prebuilds for install
@@ -154,6 +158,9 @@ if (options.targets.length > 0) {
     options.platforms.forEach(function (platform) {
       options.arches.forEach(function (arch) {
         if (platform === 'darwin' && arch === 'ia32') {
+          return;
+        }
+        if (platform !== 'darwin' && arch === 'arm64') {
           return;
         }
         chain = chain.then(function () {
