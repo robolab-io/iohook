@@ -7,6 +7,9 @@ task:
     fingerprint_script: cat package-lock.json
     populate_script: npm ci --ignore-scripts
 
+  macos_instance:
+    image: ghcr.io/cirruslabs/macos-ventura-base:latest
+
   matrix: #
     - name: Build
       build_script: npm run build:ci --all
