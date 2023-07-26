@@ -14,9 +14,6 @@
 			"<!(node -e \"require('nan')\")",
 			"libuiohook/include"
 		],
-        'xcode_settings': {
-			'CLANG_CXX_LANGUAGE_STANDARD': 'c++17'
-		}
 		"configurations": {
 			"Release": {
 				"msvs_settings": {
