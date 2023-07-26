@@ -1,0 +1,19 @@
+task:
+  arm_container:
+    image: node:latest #
+
+  node_modules_cache: #
+    folder: node_modules
+    fingerprint_script: cat packagle.lock
+    populate_script: npm ci --ignore-scripts
+
+  matrix: #
+    - name: Build
+      build_script: npm run build:ci --all
+      binaries_artifacts:
+        path: "build/*"
+    # - name: Publish
+    #   depends_on:
+    #     - Build
+    #   # only_if: $BRANCH == "master" #
+    #   publish_script:
