@@ -1,6 +1,6 @@
 task:
   arm_container:
-    image: node:latest #
+    image: node:lts #
 
   node_modules_cache: #
     folder: node_modules
